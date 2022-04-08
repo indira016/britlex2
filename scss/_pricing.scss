@@ -8,6 +8,7 @@
   &__grid {
     display: grid;
     grid-template-columns: repeat(3, 3fr);
+    gap: 35px;
   }
   &__list {
     margin: 0;
@@ -16,8 +17,15 @@
   }
 
   &__item {
-    width: 350px;
-    min-height: 419px;
+  }
+  &__img {
+    padding: 57px 138px 40px 25px;
+  }
+  &__img2 {
+    padding: 83px 89px 42px 0;
+  }
+  &__img3 {
+    padding: 57px 46px 11px 0;
   }
   &__title {
     font-family: $main-font;

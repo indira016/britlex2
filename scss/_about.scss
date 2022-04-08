@@ -8,7 +8,6 @@
   }
   &__left {
     width: 70%;
-    padding-right: 194px;
   }
   &__title {
     font-family: $main-font;
@@ -26,6 +25,7 @@
     line-height: 30px;
     color: $grey;
     margin-bottom: 0;
+    padding: 23px 194px 42px 0;
   }
   &__list {
     font-family: $main-font;
@@ -35,14 +35,16 @@
     line-height: 80px;
     color: $dark;
     display: flex;
-    // align-items: center;
+
     justify-content: center;
     margin: 0;
+    padding: 0;
   }
   &__item {
     align-items: center;
     list-style: none;
-    padding-right: 141px;
+    padding: 0 163px 0 0;
+    margin: 0;
   }
   &__text {
     font-family: $main-font;
@@ -54,6 +56,5 @@
   }
   &__right {
     width: 30%;
-    padding-left: 194px;
   }
 }
