@@ -1,0 +1,44 @@
+@import "vars";
+
+.menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  align-items: center;
+
+  &__item {
+    margin-right: 30px;
+    max-width: 658px;
+  }
+  &__item1 {
+    margin-right: 110px;
+  }
+  &__item-right {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: $dark;
+    padding: 17px 57px;
+    border: 2px solid $dark-grey;
+    border-radius: 5%;
+    margin-left: 103px;
+    box-sizing: border-box;
+  }
+  &__link {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: $dark;
+    text-decoration: none;
+    transition: all 0.3s;
+
+    &:hover {
+      color: lighten($dark, 30%);
+    }
+  }
+}

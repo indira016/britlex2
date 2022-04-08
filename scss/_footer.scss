@@ -1,0 +1,44 @@
+@import "vars";
+
+.footer {
+  padding: 56px 0 10px 0;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  hr {
+    padding-bottom: 55px;
+  }
+  &__item {
+    &-details {
+      font-family: $main-font;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 36px;
+      color: $grey;
+    }
+  }
+
+  span {
+    position: relative;
+    padding-right: 20px;
+    padding-bottom: 58px;
+
+    &::after {
+      position: absolute;
+      top: 12px;
+      right: 7px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: $grey;
+      content: "";
+    }
+    span:last-child::after {
+      display: none;
+    }
+  }
+}

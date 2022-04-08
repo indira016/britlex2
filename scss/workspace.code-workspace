@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "..\\..\\Britlex\\images"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Britlex1",
+    "liveServer.settings.port": 5502
+  }
+}

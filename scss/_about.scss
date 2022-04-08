@@ -1,0 +1,58 @@
+@import "vars";
+.about {
+  padding: em 0;
+
+  &__inner {
+    display: flex;
+  }
+  &__left {
+    width: 70%;
+    padding-right: 194px;
+  }
+  &__title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: $dark;
+  }
+  &__info {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: $grey;
+    margin-bottom: 0;
+  }
+  &__list {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: $dark;
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  &__item {
+    align-items: center;
+    list-style: none;
+    padding-right: 141px;
+  }
+  &__text {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: $grey;
+  }
+  &__right {
+    width: 30%;
+    padding-left: 194px;
+  }
+}

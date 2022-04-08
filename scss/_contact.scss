@@ -1,0 +1,51 @@
+@import "vars";
+
+.contact {
+  &__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__left {
+    padding: 261px 112px 133px 0;
+  }
+
+  &__title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+    color: $dark;
+    padding-bottom: 37px;
+  }
+
+  &__text {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: $grey;
+    padding: 40px 57px 61px 0;
+  }
+
+  form {
+    width: 450px;
+    height: 80px;
+    display: flex;
+    gap: 12px;
+  }
+  input {
+    padding: 26px 282px 30px 33px;
+    border-radius: 10px;
+    border: 1px solid #8f95a5;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: $dark;
+    border-radius: 10px;
+    color: $light;
+    padding: 25px 82px;
+  }
+}

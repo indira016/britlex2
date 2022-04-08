@@ -1,0 +1,230 @@
+@import "vars";
+
+.skills {
+  margin: 0;
+
+  &__title {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: $dark;
+    padding: 103px 608px 92px 608px;
+    margin: 0 auto;
+  }
+  &__grid {
+    display: grid;
+    grid-template-areas:
+      "menu main right"
+      "menu footer footer";
+    gap: 18px;
+  }
+  &__item1 {
+    grid-area: menu;
+  }
+  &__item2 {
+    grid-area: main;
+  }
+  &__item3 {
+    grid-area: right;
+  }
+  &__item4 {
+    grid-area: footer;
+  }
+
+  &__card {
+    max-width: 435px;
+
+    background-color: #f5f5f5;
+    border-radius: 10px;
+  }
+  &__img {
+    padding: 35px 22px 4px 23px;
+    text-align: center;
+    height: 425px;
+    background-color: #f5f5f5;
+  }
+  &__text {
+    padding: 0 45px 0 43px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: start;
+    color: $grey;
+  }
+  &__title1 {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    color: $dark-grey;
+    padding: 40px 248px 5px 43px;
+    margin: 0;
+  }
+  &__link {
+    padding: 36px 162px 92px 43px;
+
+    a {
+      background: $dark-grey;
+      border-radius: 5px;
+
+      font-family: $main-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 27px;
+      color: $light;
+      padding: 17px 63px 16px 64px;
+    }
+  }
+  &__writing {
+    max-width: 434px;
+    background: #f5f5f5;
+    border-radius: 10px;
+  }
+  &__img2 {
+    padding: 0 19px 0 122px;
+    text-align: center;
+    height: 265px;
+  }
+
+  &__title2 {
+    padding: 0 280px 0 42px;
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    color: $dark-grey;
+    margin: 0;
+  }
+  &__text2 {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: $grey;
+    padding: 0 51px 0 41px;
+  }
+  &__link2 {
+    padding: 33px 175px 44px 41px;
+
+    a {
+      background: $dark-grey;
+      border-radius: 5px;
+      padding: 15px 51px 15px 52px;
+
+      font-family: $main-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+
+      color: $light;
+      text-decoration: none;
+    }
+  }
+
+  &__reading {
+    max-width: 435px;
+    background: #f5f5f5;
+    border-radius: 10px;
+  }
+  &__img3 {
+    padding: 9px 63px 0 1px;
+    text-align: center;
+    height: 247px;
+  }
+  &__title3 {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    color: $dark-grey;
+    margin: 0;
+    padding: 15px 267px 0 41px;
+  }
+  &__text3 {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $grey;
+    padding: 0 29px 0 43px;
+  }
+  &__link3 {
+    padding: 35px 174px 44px 43px;
+
+    a {
+      background: $dark-grey;
+      border-radius: 5px;
+      padding: 15px 51px 15px 52px;
+
+      font-family: $main-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+
+      color: $light;
+      text-decoration: none;
+    }
+  }
+  &__listening {
+    max-width: 885px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    display: flex;
+    grid-area: footer;
+  }
+  &__title4 {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 80px;
+    margin: 0;
+    color: $main-font;
+    padding: 43px 293px 0 48px;
+  }
+  &__text4 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: $grey;
+    padding: 0 102px 0 48px;
+  }
+  &__link4 {
+    padding: 25px 216px 68px 44px;
+
+    a {
+      background: $dark-grey;
+      border-radius: 5px;
+      padding: 15px 51px 15px 52px;
+
+      font-family: $main-font;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+
+      color: $light;
+      text-decoration: none;
+    }
+  }
+  &__img4 {
+    padding: 44px 25px 44px 0;
+    text-align: center;
+  }
+}
