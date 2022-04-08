@@ -1,7 +1,7 @@
 @import "vars";
 
 .hero {
-  padding: 115px 0 147px 0;
+  padding: 51px 0 0 0;
 
   &__inner {
     display: flex;
@@ -43,5 +43,9 @@
     background: $dark-grey;
     border-radius: 15px;
     text-decoration: none;
+  }
+  &__right {
+    padding: 0;
+    margin: 0;
   }
 }

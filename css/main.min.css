@@ -100,7 +100,7 @@ body {
 }
 
 .hero {
-  padding: 115px 0 147px 0;
+  padding: 51px 0 0 0;
 }
 
 .hero__inner {
@@ -152,6 +152,11 @@ body {
   background: #263238;
   border-radius: 15px;
   text-decoration: none;
+}
+
+.hero__right {
+  padding: 0;
+  margin: 0;
 }
 
 .skills {
@@ -418,6 +423,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 282px;
 }
 
 .about__left {
@@ -484,6 +490,7 @@ body {
 
 .pricing__title {
   padding: 188px 585px 57px 586px;
+  margin: 0;
 }
 
 .pricing__grid {
