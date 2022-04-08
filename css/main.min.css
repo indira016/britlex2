@@ -428,7 +428,6 @@ body {
 
 .about__left {
   width: 70%;
-  padding-right: 194px;
 }
 
 .about__title {
@@ -448,6 +447,7 @@ body {
   line-height: 30px;
   color: #8f95a5;
   margin-bottom: 0;
+  padding: 23px 194px 42px 0;
 }
 
 .about__list {
@@ -464,6 +464,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0;
+  padding: 0;
 }
 
 .about__item {
@@ -471,7 +472,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   list-style: none;
-  padding-right: 141px;
+  padding: 0 163px 0 0;
+  margin: 0;
 }
 
 .about__text {
@@ -485,7 +487,6 @@ body {
 
 .about__right {
   width: 30%;
-  padding-left: 194px;
 }
 
 .pricing__title {
@@ -498,6 +499,7 @@ body {
   display: grid;
   -ms-grid-columns: (3fr)[3];
       grid-template-columns: repeat(3, 3fr);
+  gap: 35px;
 }
 
 .pricing__list {
@@ -506,9 +508,16 @@ body {
   list-style: none;
 }
 
-.pricing__item {
-  width: 350px;
-  min-height: 419px;
+.pricing__img {
+  padding: 57px 138px 40px 25px;
+}
+
+.pricing__img2 {
+  padding: 83px 89px 42px 0;
+}
+
+.pricing__img3 {
+  padding: 57px 46px 11px 0;
 }
 
 .pricing__title {
@@ -649,11 +658,14 @@ body {
   position: absolute;
   top: 12px;
   right: 7px;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   background: #8f95a5;
   content: "";
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer span span:last-child::after {
